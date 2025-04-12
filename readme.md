@@ -29,9 +29,10 @@ Oi! Este é meu projeto de modelagem de banco de dados para um sistema de e-comm
 
 ## Algumas Queries SQL que você pode rodar
 
-### Quantos pedidos foram feitos por cada cliente?
+```SQL
 
-```sql
+Quantos pedidos foram feitos por cada cliente?
+
 SELECT 
     c.nome, 
     COUNT(p.id_pedido) AS total_pedidos
